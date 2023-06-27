@@ -15,3 +15,40 @@ body{
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+}
+*{
+        margin: 0;
+        padding: 0;
+}
+.container{
+
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+}
+.principal{
+        background-image: url(Background.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: center;
+        text-align: center;
+}
+.container__botao{
+
+        background-color: var(--botao-azul);
+        border-radius: 5px;
+        padding: 1em;
+        color: var(--branco-principal);
+        display: block;
+        text-decoration: none;
+        margin-bottom: 1em;
+}
+.botaos_secundario{
+        background-color: transparent;
+        border: 2px solid var(--branco-principal);
+
+}
+
+.container__aviso{
+        
+}
