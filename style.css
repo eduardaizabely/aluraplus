@@ -1,0 +1,17 @@
+:root {
+        --branco-principal: #FFFFFF;
+        --cinza-secundario: #C0C0C0;
+        --botao-azul: #167BF7;
+        --COR-DWE-FUNDO: #00030C;
+        --fonte-principal: 'inter';
+        --botao-azul-efeito: #3c92fa;
+    
+}
+
+body{
+
+    background-color: var(--COR-DE-FUNDO);
+    color: var(--brando-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
